@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { db } from "../../config";
 import firebase from "firebase";
 import PostItem from "../PostItem";
-import "../../styles.css";
+import "./index.css";
 import { DebounceInput } from "react-debounce-input";
 
 const Feed = () => {

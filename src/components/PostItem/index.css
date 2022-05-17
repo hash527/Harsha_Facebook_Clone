@@ -1,0 +1,22 @@
+.feed {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 60%;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: left;
+  padding: 15px;
+}
+
+.profile {
+  background: #898f9c;
+  height: 30px;
+  border-radius: 100%;
+  width: 30px;
+}
+
+.post-text {
+  padding: 10px 0px;
+}
