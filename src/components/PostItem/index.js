@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles.css";
+import "../../styles.css";
 
 const PostItem = ({ postText, id, gif }) => {
   console.log(gif);

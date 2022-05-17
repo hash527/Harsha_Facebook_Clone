@@ -1,9 +1,9 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { db } from "../config";
+import { db } from "../../config";
 import firebase from "firebase";
 import PostItem from "../PostItem";
-import "../styles.css";
+import "../../styles.css";
 import { DebounceInput } from "react-debounce-input";
 
 const Feed = () => {
@@ -134,7 +134,7 @@ const Feed = () => {
 
       {fetchPost.map((post) => (
         <div>
-          <FeedList postText={post.postText} id={post.id} gif={post.gif} />
+          <PostItem postText={post.postText} id={post.id} gif={post.gif} />
         </div>
       ))}
     </div>
