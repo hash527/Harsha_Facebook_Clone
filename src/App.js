@@ -1,11 +1,10 @@
 import "./styles.css";
-import Nav from "./components/Nav";
-import Feed from "./components/Feed";
+import Feed from "../Feed";
 
 export default function App() {
   return (
     <div className="App">
-      <Nav />
+      <h1>Facebook Clone App</h1>
       <Feed />
     </div>
   );
