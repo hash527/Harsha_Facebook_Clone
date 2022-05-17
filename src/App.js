@@ -1,4 +1,4 @@
-import "./index.css";
+import "./App.css";
 import Feed from "./components/Feed";
 
 export default function App() {

@@ -78,17 +78,19 @@ const Feed = () => {
   return (
     <div>
       <div className="feed-input">
+        <img
+          src="https://scontent.fhyd2-1.fna.fbcdn.net/v/t1.30497-1/84628273_176159830277856_972693363922829312_n.jpg?stp=c59.0.200.200a_dst-jpg_p200x200&_nc_cat=1&ccb=1-6&_nc_sid=12b3be&_nc_ohc=yc8i44iJCn8AX9-r_j-&_nc_ht=scontent.fhyd2-1.fna&edm=AHgPADgEAAAA&oh=00_AT8H02IMI6_3XkGZPD1lEtQ-ss8FOyMGosaPQzbgF6NqKA&oe=62A8C299"
+          className="profile-img"
+          alt="profile-img"
+        />
         <form onSubmit={submitHandler}>
           <input
-            placeholder=" What's on your mind?"
+            placeholder="Write Something here.."
             className="post-input"
             type="text"
             value={textInput}
             onChange={textHandler}
           />
-          <button className="post-btn" disabled={!textInput} type="submit">
-            Post
-          </button>
         </form>
 
         <div className="post-gif-img">
@@ -97,9 +99,12 @@ const Feed = () => {
         <button className="gif-btn" onClick={getGif}>
           Gif
         </button>
+        <div>
+          <button className="post-btn" disabled={!textInput} type="submit">
+            Post
+          </button>
+        </div>
       </div>
-
-      {/* gif button toggle */}
 
       {toggle ? (
         <div className="gif-modal">

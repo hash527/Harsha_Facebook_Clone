@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  width: 60%;
+  max-width: 600px;
   margin: auto;
   border-radius: 5px;
   margin-top: 10px;
@@ -10,13 +10,17 @@
   padding: 15px;
 }
 
-.profile {
-  background: #898f9c;
+.profile-img {
   height: 30px;
-  border-radius: 100%;
+  border-radius: 15px;
   width: 30px;
 }
 
 .post-text {
   padding: 10px 0px;
+}
+
+.gif-img {
+  height: 200px;
+  width: 100%;
 }
