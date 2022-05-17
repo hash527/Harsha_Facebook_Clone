@@ -91,6 +91,9 @@ const Feed = () => {
             value={textInput}
             onChange={textHandler}
           />
+          <button className="post-btn" disabled={!textInput} type="submit">
+            Post
+          </button>
         </form>
 
         <div className="post-gif-img">
@@ -99,11 +102,7 @@ const Feed = () => {
         <button className="gif-btn" onClick={getGif}>
           Gif
         </button>
-        <div>
-          <button className="post-btn" disabled={!textInput} type="submit">
-            Post
-          </button>
-        </div>
+        <div></div>
       </div>
 
       {toggle ? (
