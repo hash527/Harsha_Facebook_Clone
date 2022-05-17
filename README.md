@@ -1,6 +1,5 @@
 # Checkout the Live Demo [here](https://csb-joyh52.netlify.app/).
-
-
+<br>
 
 ## Getting Started with Create React App
 
